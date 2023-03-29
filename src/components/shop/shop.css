@@ -1,0 +1,14 @@
+.shopContainer {
+  display: grid;
+  /* repeat dibo na .repeat mean same size repeat hbe.flex dile same
+  space thakbe maje..jehetu amra different proportion chassi 2 ta diff div er jnno
+  so use below line */
+  grid-template-columns: 4fr 1fr;
+}
+
+.productContainer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 45px;
+  margin: 50px;
+}
