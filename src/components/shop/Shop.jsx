@@ -2,8 +2,7 @@ import React from "react";
 import { useEffect, useState } from "react";
 import Products from "../displayData/Products";
 import "./shop.css";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faCoffee } from "@fortawesome/free-solid-svg-icons";
+
 const Shop = () => {
   const [products, setProducts] = useState([]);
 
@@ -36,7 +35,7 @@ const Shop = () => {
         })}
       </div>
       <div className="cartContainer">
-        <h4>Shop here</h4>
+        <h4>Shop Board</h4>
         <h4>Item:{cart.length}</h4>
       </div>
     </div>
